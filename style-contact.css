@@ -25,7 +25,7 @@
    
    form {
    
-       background-color: #7A559D;
+       background-color: #D05270;
        margin-top: 5%;
        margin: auto;
        /* width: 50%; */
@@ -103,8 +103,8 @@
         flex-wrap: wrap;
         top: 0;
         left: 0;
-        margin-left: 5em;
-        margin-right: 5em;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     nav {
@@ -153,4 +153,69 @@
 
         width: 100%;
         margin: 2em;
+    }
+
+
+
+    /* CSS NETWORK FOOTER */
+
+
+    footer {
+
+        display: flex;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+        color: white;
+        margin-bottom: 2em;
+    }
+
+
+    #network1 {
+
+        flex: 1;
+        background-color: #47ACDF;
+        padding: 2%;
+        text-decoration: none;
+        
+    }
+
+
+    #network1 a {
+
+        text-decoration: none;
+        color: white;
+    }
+
+
+    #network2 {
+
+        flex: 1;
+        background-color: #1275B1;
+        padding: 2%;
+        text-decoration: none;
+        margin-left: 1%;
+        margin-right: 1%;
+
+    }
+
+    #network2 a {
+
+        text-decoration: none;
+        color: white;
+    }
+
+    #network3 {
+
+        flex: 1;
+        background-color: #000;
+        padding: 2%;
+        text-decoration: none;
+
+    }
+
+    #network3 a {
+
+        text-decoration: none;
+        color: white;
     }
