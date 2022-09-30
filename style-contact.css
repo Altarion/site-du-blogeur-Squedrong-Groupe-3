@@ -178,7 +178,8 @@
         text-decoration: none;
         padding: 2em;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        display: flex;
         
     }
 
