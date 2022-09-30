@@ -163,7 +163,6 @@
     footer {
 
         display: flex;
-        padding: 20px;
         text-align: center;
         width: 100%;
         color: white;
@@ -176,7 +175,7 @@
         flex: 1;
         background-color: #1DA1F2;
         text-decoration: none;
-        padding: 2em;
+        padding: 1%;
         align-items: center;
         justify-content: space-around;
         display: flex;
@@ -188,6 +187,8 @@
 
         text-decoration: none;
         color: white;
+        font-weight: bold;    
+    
     }
 
     #network1 img {
@@ -200,11 +201,14 @@
     #network2 {
 
         flex: 1;
-        background-color: #1275B1;
-        padding: 2%;
+        background-color: #0172B1;
+        padding: 1%;
         text-decoration: none;
         margin-left: 1%;
         margin-right: 1%;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
 
     }
 
@@ -212,14 +216,18 @@
 
         text-decoration: none;
         color: white;
+        font-weight: bold;   
     }
 
     #network3 {
 
         flex: 1;
         background-color: #000;
-        padding: 2%;
+        padding: 1%;
         text-decoration: none;
+        align-items: center;
+        justify-content: space-around;
+        display: flex;
 
     }
 
@@ -227,4 +235,5 @@
 
         text-decoration: none;
         color: white;
+        font-weight: bold;   
     }
