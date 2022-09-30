@@ -3,17 +3,21 @@ body
 {
     font-family: 'Montserrat', sans-serif;
     color: white;
+    text-align: left;
 }
 p 
 {
     color: #222;
     text-align: center;
 }
+a
+{
+    color: rgb(243, 12, 89);
+}
 h1 
 {
    font-family: 'Abril Fatface', cursive;
-    text-align: center;
-    color: #D05270;
+    color: rgb(243, 12, 89);
 }
 h3
 {
@@ -52,9 +56,9 @@ section
     display: flex;
     width: 100%;   
     margin: 2em;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    align-items: flex-start;
 }
 .img1
 {
