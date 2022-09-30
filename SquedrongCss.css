@@ -3,12 +3,35 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    margin: 2%;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
 }
-img
+header
+{
+    padding: 20px;
+    flex-basis: 100%;
+    box-sizing: border-box;
+}
+.section1
+{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+.section2
+{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+.img1
 {
     width: 50%;
-
+    
+}
+.img2
+{
+    width: 50%;
+    /*flex-basis: 100%;
+    box-sizing: border-box;*/
 }
 h1, h3
 {
@@ -16,6 +39,15 @@ h1, h3
 }
 .logo
 {
-    width: 30px;
-    height: 30px;
+    width: 25%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+}
+p
+{
+    color: black;
+}
+h1
+{
+    font-family: 'Abril Fatface', cursive;
 }
