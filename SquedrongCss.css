@@ -47,6 +47,7 @@ nav img
 header
 {
     padding: 20px;
+    width: 75%;
     flex-basis: 100%;
     box-sizing: border-box;
     flex-direction: row;
@@ -66,7 +67,7 @@ section
 }
 .img2
 {
-    width: 50%;
+    width: 25%;
     flex-basis: 100%;
     box-sizing: border-box;
 }
@@ -146,6 +147,52 @@ header
     font-weight: bold;    
 }
 #network1 img 
+{
+float: left;
+padding-left: 1em;
+}
+#network2
+{
+    flex: 1;
+    background-color: #353cff;
+    text-decoration: none;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+ 
+}
+#network2 a 
+{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+}
+#network2 img 
+{
+float: left;
+padding-left: 1em;
+}
+#network3 
+{
+    flex: 1;
+    background-color: #000000;
+    text-decoration: none;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+ 
+}
+#network3 a 
+{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+}
+#network3 img 
 {
 float: left;
 padding-left: 1em;
