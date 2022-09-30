@@ -3,9 +3,51 @@ body
 {
     display: flex;
     flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
 }
-img
+header
 {
-    width: 30px;
-    height: 30px;
+    padding: 20px;
+    flex-basis: 100%;
+    box-sizing: border-box;
+}
+.section1
+{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+.section2
+{
+    flex-basis: 50%;
+    box-sizing: border-box;
+}
+.img1
+{
+    width: 50%;
+    
+}
+.img2
+{
+    width: 50%;
+    /*flex-basis: 100%;
+    box-sizing: border-box;*/
+}
+h1, h3
+{
+    color: rgb(243, 12, 89);
+}
+.logo
+{
+    width: 25%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+}
+p
+{
+    color: black;
+}
+h1
+{
+    font-family: 'Abril Fatface', cursive;
 }
