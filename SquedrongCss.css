@@ -53,6 +53,8 @@ section
     width: 100%;   
     margin: 2em;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 .img1
 {
