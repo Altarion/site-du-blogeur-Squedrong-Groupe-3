@@ -118,3 +118,35 @@ section
     box-sizing: border-box;
     flex-direction: column;
 }
+header
+{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    margin-bottom: 2em;
+}
+#network1 
+{
+    flex: 1;
+    background-color: #1DA1F2;
+    text-decoration: none;
+    padding: 1%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+ 
+}
+#network1 a 
+{
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;    
+}
+#network1 img 
+{
+float: left;
+padding-left: 1em;
+}
