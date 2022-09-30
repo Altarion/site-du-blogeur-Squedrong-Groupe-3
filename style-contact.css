@@ -174,9 +174,11 @@
     #network1 {
 
         flex: 1;
-        background-color: #47ACDF;
-        padding: 2%;
+        background-color: #1DA1F2;
         text-decoration: none;
+        padding: 2em;
+        align-items: center;
+        justify-content: center;
         
     }
 
@@ -185,6 +187,12 @@
 
         text-decoration: none;
         color: white;
+    }
+
+    #network1 img {
+
+    float: left;
+    padding-left: 1em;
     }
 
 
