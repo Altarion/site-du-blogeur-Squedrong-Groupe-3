@@ -118,25 +118,3 @@ section
     box-sizing: border-box;
     flex-direction: column;
 }
-
-/*
-header
-{
-    padding: 20px;
-    flex-basis: 100%;
-    box-sizing: border-box;
-}
-
-
-h1, h3
-{
-    color: rgb(243, 12, 89);
-}
-p
-{
-    color: black;
-}
-h1
-{
-    font-family: 'Abril Fatface', cursive;
-}
