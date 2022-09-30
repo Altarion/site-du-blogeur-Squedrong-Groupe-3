@@ -15,6 +15,10 @@ h1
     text-align: center;
     color: #D05270;
 }
+h3
+{
+    color: rgb(243, 12, 89);
+}
 #conteneur 
 {
     display: flex;
@@ -36,11 +40,19 @@ nav img
 {
     height: 120px;
 }
+header
+{
+    padding: 20px;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    flex-direction: row;
+}
 section 
 {   
+    display: flex;
     width: 100%;   
     margin: 2em;
-    flex-direction: column;
+    flex-direction: row;
 }
 .img1
 {
@@ -54,13 +66,51 @@ section
 }
 .section1
 {
-    flex-basis: 50%;
+    display: flex;
+    width: 50%;
+    flex-basis: 100%;
     box-sizing: border-box;
+    flex-direction: column;
 }
 .section2
 {
-    flex-basis: 50%;
+    display: flex;
+    width: 50%;
+    flex-basis: 100%;
     box-sizing: border-box;
+    flex-direction: column;
+}
+.section3
+{
+    display: flex;
+    width: 50%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.section4
+{
+    display: flex;
+    width: 50%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.section5
+{
+    display: flex;
+    width: 50%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+.section6
+{
+    display: flex;
+    width: 50%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
 }
 
 /*
@@ -70,16 +120,7 @@ header
     flex-basis: 100%;
     box-sizing: border-box;
 }
-.section1
-{
-    flex-basis: 50%;
-    box-sizing: border-box;
-}
-.section2
-{
-    flex-basis: 50%;
-    box-sizing: border-box;
-}
+
 
 h1, h3
 {
